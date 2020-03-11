@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<seo>
+  <introduction>
+    <description>Text</description>
+    <importance>
+      <history>Como surgió y porqué</history>
+      <present>use actual</present>
+      <future>Previsión de cara al futuro</future>
+    </importance>
+  </introduction>
+  <use>
+    <searchEngines>
+      <introduction>¿Que son?</introduction>
+      <principalEngines>
+        <Google>Google que importancia tiene dentro de SEO</Google>
+        <Yahoo>Nombrar</Yahoo>
+        <Bing>Nombrar</Bing>
+      </principalEngines> 
+    </searchEngines>
+    <optimization>
+      <introduction>¿Que es?</introduction>
+      <keyWords>
+        <use>use</use>
+      </keyWords>
+      <friendlyUrl><use>use</use></friendlyUrl>
+      <title><use>use</use></title>
+      <description><use>use</use></description>
+      <tags><use>use</use></tags>
+      <linkProfile><use>use</use></linkProfile>
+      <images><use>use</use></images>
+    </optimization>
+  </use>
+  <types>
+    <onpage><description>Que es</description></onpage>
+    <offpage><description>Que es</description></offpage>
+    <BHS>
+      <description>Que es</description>
+      <examples>examples</examples>
+    </BHS>
+    <WHS>
+      <description>Que es</description>
+      <examples>examples</examples>
+    </WHS>
+  </types>
+</seo>
