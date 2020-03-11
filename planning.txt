@@ -1,4 +1,3 @@
 11-03-2020
 --------------------
-· Se ha realizado la estructura del documento xml.
-   
+· The structure of the XML document has been made.
