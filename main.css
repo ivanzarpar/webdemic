@@ -1,10 +1,25 @@
-seo {
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lora|Playfair+Display:700i,900');
+
+*, *:after, *:before {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: "Lato", sans-serif;
+    margin-top: 21px;
+    font-size: 21px;
+    letter-spacing: -0.03px;
+    line-height: 1.58;
+}
+
+container {
+    background: #1C1A30;
     margin: 35px auto;
     width: 75%;
-    background: #333;
+}
+
+card {
+    background: #fff;
     border-radius: 6px;
     padding: 2rem;
-     color: #aaa;
+    color: #333;
     box-shadow: 0 .25rem .25rem rgba(0,0,0,0.2), 0 0 1rem rgba(0,0,0,0.2);
-    font-family: 'Open Sans', sans-serif;
 }
