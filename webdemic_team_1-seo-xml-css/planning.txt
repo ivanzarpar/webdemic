@@ -1,0 +1,3 @@
+11-03-2020
+--------------------
+· The structure of the XML document has been made.
