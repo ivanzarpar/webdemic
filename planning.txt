@@ -1,6 +1,6 @@
 11-03-2020
 --------------------
-· The structure of the XML document has been made.
+· The structure of the XML document has been made by Ivan, Jesus and Carlos.
 
 31/03/2020
 --------------------
