@@ -9,3 +9,7 @@
 04/04/2020
 --------------------
 · Ivan, Jesus and Carlos have expanded the CSS and XML.
+
+09/04/2020
+--------------------
+. Carlos, Jesús, Ángela and Iván have expanded the CSS and XML and made the index.HTML.
