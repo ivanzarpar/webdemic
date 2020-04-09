@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Lora|Playfair+Display:700i,900');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+*, *:after, *:before {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-family: "Lato", sans-serif;
+    margin-top: 21px;
+    font-size: 21px;
+    letter-spacing: -0.03px;
+    line-height: 1.58;
+    text-align: justify;
+}
+
+container {
+    background: #1C1A30;
+    margin: 35px auto;
+    width: 75%;
+}
+
+card {
+    background: #fff;
+    border-radius: 6px;
+    padding: 2rem;
+    color: #333;
+    box-shadow: 10px 10px 5px #464646;
+}
+
+seo:before{
+  font-family: 'Bowlby One SC', cursive;
+  content: "SEO";
+  display: block;
+  text-align: center;
+  font-size: 3em;
+}
+
+card:after{
+  content: "Created by Team 1 with ❤";
+  display: block;
+  margin-bottom: 0.4cm;
+  font-size: 0.8em;
+  text-align: right;
+  font-style: italic;
+}
+
+seoST:before{
+  content: "Search Engine Optimization";
+  display: block;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.3px;
+  font-size: 0.8em;
+  margin-top: -30px;
+}
+
+introductionSeo:before{
+  content: "· Introduction";
+  font-size: 1.45em;
+  margin-bottom: -50px;
+  margin-left: 0.2em;
+  font-weight: bold;
+}
+
+uses:before{
+  content: "· Uses";
+  font-size: 1.45em;
+  margin-bottom: -50px;
+  margin-left: 0.4em;
+  font-weight: bold;
+}
+
+types:before{
+  content: "· Types";
+  font-size: 1.45em;
+  margin-bottom: -50px;
+  margin-left: 0.4em;
+  font-weight: bold;
+}
+
+searchEngines:before{
+    content: "- Search Engines:";
+    font-size: 1.1em;
+    margin-bottom: -50px;
+    margin-left: 0.2em;
+    font-weight: bold;
+}
+
+optimization:before{
+  content: "- Optimization:";
+  font-size: 1.1em;
+  margin-bottom: -50px;
+  margin-left: 0.2em;
+  font-weight: bold;
+}
+
+BHS:before{
+  content: "- Black Hat Seo:";
+  font-size: 1.1em;
+  margin-bottom: -50px;
+  margin-left: 0.2em;
+  font-weight: bold;
+}
+
+WHS:before{
+  content: "- White Hat Seo:";
+  font-size: 1.1em;
+  margin-bottom: -50px;
+  margin-left: 0.2em;
+  font-weight: bold;
+}
+
+important{
+  font-weight: bold;
+  margin-bottom: -10px;
+  margin-top: -10px;
+}
