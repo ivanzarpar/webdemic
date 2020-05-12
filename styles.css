@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lora|Roboto&display=swap');
 
-body{background-color: #FCFCFC}
+body{background-color: #F5FFFF}
 *{
   color:#000;
   font-family: 'Roboto', sans-serif;
@@ -20,7 +20,7 @@ body{background-color: #FCFCFC}
   padding: 20px 10px;
 }
 
-#cabecera a{
+#cabecera a.activo{
   float: right;
   color: black;
   text-align: center;
@@ -31,26 +31,26 @@ body{background-color: #FCFCFC}
   border-radius: 4px;
   margin-right: 10px;
 }
-#cabecera a:hover {
+#cabecera a.activo:hover {
   background-color: #ddd;
   color: black;
 }
 
-#cabecera a#active{
-  background-color: #27AE60;
+#cabecera a.activo#active{
+  background-color: #287FD9;
   color: white;
 }
 
 /* -------------------------HEADER-----------------------------*/
 
 .header {
-  padding: 10em;
+  padding: 15em;
   text-align: center;
   color: white;
   font-size: 1em;
-  background-image: url('./images/logo_webdemic.jpg');
+  background-image: url('./images/background2.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 25em;
+  background-size: 100% 35em;
 }
 
 /* --------------------------MENU------------------------------*/
@@ -65,7 +65,7 @@ body{background-color: #FCFCFC}
   border-radius: 0.5em;
 }
 
-#menu h3{
+/*#menu h3{
   text-align: center;
   color: #0f0f0f;
 }
@@ -90,14 +90,15 @@ body{background-color: #FCFCFC}
   transition: all .5s;
   background-color: #555;
   color: #fff;
-}
+}*/
 
 /* ------------------------CONTENIDO----------------------------*/
 
 #contenido {
-  float: left;
+  /*float: left;*/
   width: 85%;
   height: 100%;
+  margin: 0 auto;
 }
 
 h1{
@@ -146,22 +147,21 @@ div#part2{
   color: #000;
   line-height: 1.5;
 }
-#contenido div.containerTextIndex{
-  margin-bottom: 5em;
-}
-ol li.itemsElche{
-  margin-left: 2.5em;
-}
+/*#contenido div.containerTextIndex{
+  margin-bottom: 3em;
+}*/
+
+
 
 /* IMAGEN CON CSS */
 div.boxImage {
-  width: 250px;
-  /*float: right;*/
+  width: 275px;
+  float: right;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   transition: transform .2s;
   margin: 0 auto;
-  margin-top: -2em;
+  margin-top: 0em;
 }
 
 div.boxImage:hover{
@@ -171,49 +171,41 @@ div.boxImage:hover{
   transform: scale(1.05);
 }
 
+#logo{
+  float:left;
+  width:200px;
+}
+#logopie{
+  float:right;
+  width:45px;
+  border-width: 0;
+}
 div.container {
   padding: 10px;
 }
 
-/* -----------------------FORMULARIO---------------------------*/
 
-div.form{
-  margin-top: 140em;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border: 0.25em solid #28B463;
-  border-radius: 0.5em;
-  padding: 10px;
+/* -----------------------BUSQUEDA---------------------------*/
+
+.oculta{
+display: none;
+visibility: hidden;
+
 }
+.mostra{
+  display: block;
+  visibility: visible;
+  text-align: justify;
+  font-family: 'Lora', serif;
+  line-height: 1.5;
+  margin-left: 1.5em;
+  margin-right: 2em;
+  font-size: 1.04em;
 
- #h2Form{
-   margin-top: 2em;
-   font-size: 1.6em;
-   text-align: center;
-}
-
-div.form p{
-  font-size: 1.2em;
-}
-
-input.camp {
-  width: 100%;
-  padding: 8px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: 3px solid #ccc;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  outline: none;
-}
-
-input.camp:focus {
-  border: 3px solid #555;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-  background-color: #28B463;
+  background-color: #287FD9;
   border: none;
   color: white;
   padding: 16px 32px;
@@ -227,7 +219,7 @@ input[type=button], input[type=submit], input[type=reset] {
 #pie {
   clear: both;
   height: 100%;
-  background-color: #34495E;
+  /*background-color: #34495E;*/
   margin-top: 10em;
 }
 
