@@ -44,9 +44,15 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
               <xsl:when test="./image">
                 <div id="seo" class="containerTextIndex">
                   <div class="boxImage" style="float: right; margin-left: 50px;">
-                    <img alt="SEO" title="Search Engine Optimization" style="width:100%;">
+                    <img style="width:100%;">
                       <xsl:attribute name="src">
                         <xsl:value-of select="./image"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="title">
+                        <xsl:value-of select="./title"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="alt">
+                        <xsl:value-of select="./title"/>
                       </xsl:attribute>
                     </img>
                     <!--<div class="container">
@@ -80,11 +86,17 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
                 <xsl:when test="image">
                   <div id="seo" class="containerTextIndex">
                     <div class="boxImage" style="float: right; margin-left: 50px;">
-                      <img alt="SEO" title="Search Engine Optimization" style="width:100%;">
-                        <xsl:attribute name="src">
-                          <xsl:value-of select="image"/>
-                        </xsl:attribute>
-                      </img>
+						<img style="width:100%;">
+						  <xsl:attribute name="src">
+							<xsl:value-of select="./image"/>
+						  </xsl:attribute>
+						  <xsl:attribute name="title">
+							<xsl:value-of select="./title"/>
+						  </xsl:attribute>
+						  <xsl:attribute name="alt">
+							<xsl:value-of select="./title"/>
+						  </xsl:attribute>
+						</img>
                       <!--<div class="container">
                         <p style="margin-bottom: 1em;"><em>(Search Engine Optimization)</em></p>
                       </div>-->
@@ -115,11 +127,17 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <xsl:when test="image">
               <div id="seo" class="containerTextIndex">
                 <div class="boxImage" style="float: right; margin-left: 50px;">
-                  <img alt="SEO" title="Search Engine Optimization" style="width:100%;">
-                    <xsl:attribute name="src">
-                      <xsl:value-of select="image"/>
-                    </xsl:attribute>
-                  </img>
+                    <img style="width:100%;">
+                      <xsl:attribute name="src">
+                        <xsl:value-of select="./image"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="title">
+                        <xsl:value-of select="./title"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="alt">
+                        <xsl:value-of select="./title"/>
+                      </xsl:attribute>
+                    </img>
                   <!--<div class="container">
                     <p style="margin-bottom: 1em;"><em>(Search Engine Optimization)</em></p>
                   </div>-->
@@ -151,11 +169,17 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <xsl:when test="image">
               <div id="seo" class="containerTextIndex">
                 <div class="boxImage" style="float: right; margin-left: 50px;">
-                  <img alt="SEO" title="Search Engine Optimization" style="width:100%;">
-                    <xsl:attribute name="src">
-                      <xsl:value-of select="image"/>
-                    </xsl:attribute>
-                  </img>
+                    <img style="width:100%;">
+                      <xsl:attribute name="src">
+                        <xsl:value-of select="./image"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="title">
+                        <xsl:value-of select="./title"/>
+                      </xsl:attribute>
+                      <xsl:attribute name="alt">
+                        <xsl:value-of select="./title"/>
+                      </xsl:attribute>
+                    </img>
                   <!--<div class="container">
                     <p style="margin-bottom: 1em;"><em>(Search Engine Optimization)</em></p>
                   </div>-->
